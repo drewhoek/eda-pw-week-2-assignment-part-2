@@ -45,10 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We name a variable secret but do not set it equal to any value.
+// Next we define a variable code and set it equal to the integer 123.
+// We then create a conditional that states if the variable code is exactly equal to 123 then we will execute a few things. 
+// The variable secret will now be equal to the string 'super' and the variable code will multiply by 2. code is now equal to the integer 246.
+// We then create a second conditional that checks if the variable code is greater than 250.
+// If that is true then the variable secret is updated to the string 'duper'. This is false so the variable secret will remain equal to the string 'super'.
+// We then console.log the variable secret and the string 'super' would be outputed to the console.
 
 //CODE
 /*
