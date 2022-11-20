@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We define a variable called name and set it equal to the string 'Dane'.
+// We then create a conditional that says if the variable name is 100% equal to the string 'Mary' then we output the string 'Hi, Mary!' to the console.
+// The else statement after that says that if the string is equal to anything else it will output the string 'How do you do?' to the console.
+// This conditional will output the 'How do you do?' string to the console because the string 'Dane' is not === to 'Mary'.
 
 //CODE
 /*
