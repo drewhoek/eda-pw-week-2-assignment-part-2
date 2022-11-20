@@ -73,10 +73,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We define 3 variables to start. We set the variable isStudent equal to the boolean true, the variable age equal to the integer 34 and the variable zip equal to the integer 55407.
+// We then create a conditional that first checks if the variable isStudent is true AND zip is greater than 80000. If both are true then we will output the string 'You're a student on the West Coast!' to the console. This will not output.
+// We then get a series of else if statements that will output different strings if the previous statements are false.
+// The first else if statement checks if the variable isStudent is equal to false OR if the variable age is less than 30. If this is true then the string 'What are your hobbies?' will output to the console. This will also not output.
+// The next else if statement checks if the variable isStudent is equal to true. If this statement is true the string 'Welcome to Prime!' will output to the console. This will output to the console.
+// The last else statement will output the string 'How about the weather?' to the console if none of the above statements are true. This line will not be run as the previous else if statement was true.
 
 //CODE
 /*
