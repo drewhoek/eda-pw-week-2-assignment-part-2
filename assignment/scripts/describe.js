@@ -142,7 +142,7 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-// FIX colorOne and ColorTwo are flipped, colorOne should be blue and colorTwo should be red according to the instructions.
+// FIX - colorOne and ColorTwo are flipped, colorOne should be blue and colorTwo should be red according to the instructions.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -160,7 +160,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-// FIX we are checking for an AND statement and it is currently an OR statement.
+// FIX - we are checking for an AND statement and it is currently an OR statement.
 // if statemtent should say if (temp > 39 && time >= 4) {
 // Current code will output the same thing in the console but we need to evaluate both variable not one or the other.
 if (temp > 39 || time >= 4) {
@@ -176,10 +176,20 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - this function is checking if minAge is less than or equal to age not if age is greater than or equal to minAge.
+// The other incorrect statement is that the first if statement should return 'entry' instead of 'no entry' 
+// because if minAge is less than or equal to age then entry would be allowed.
+// Fix is also easier to read according to description.
+// Correct statement should say: 
+// if (age >= minAge) {
+      console.log('entry');
+    } else {
+      console.log('no entry')
+    }
+
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
 */
-
