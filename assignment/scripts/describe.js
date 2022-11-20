@@ -160,6 +160,9 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX we are checking for an AND statement and it is currently an OR statement.
+// if statemtent should say if (temp > 39 && time >= 4) {
+// Current code will output the same thing in the console but we need to evaluate both variable not one or the other.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
