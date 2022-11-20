@@ -143,6 +143,7 @@ if (number >= 2) {
 
 /*
 // FIX - colorOne and ColorTwo are flipped, colorOne should be blue and colorTwo should be red according to the instructions.
+// this function still works correctly as written but is important to have the values assigned to the correct variables if further code is written.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
